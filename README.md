@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon-256.png" width="128" height="128" alt="POLYDESK">
+  <img src="assets/social-preview.png" width="100%" alt="POLYDESK — one-click ladder trading for Polymarket">
 </p>
 
 # POLYDESK — Click Trader for Polymarket
