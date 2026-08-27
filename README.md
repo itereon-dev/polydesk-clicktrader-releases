@@ -7,7 +7,6 @@
 **Website: [www.tradepolydesk.com](https://www.tradepolydesk.com)**
 
 [![Latest release](https://img.shields.io/github/v/release/itereon-dev/polydesk-clicktrader-releases?label=download&sort=semver)](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/itereon-dev/polydesk-clicktrader-releases/total)](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases)
 
 POLYDESK is a desktop trading cockpit for [Polymarket](https://polymarket.com): a
 one-click price ladder in the style of exchange trading tools (Geeks Toy, Bet Angel),
