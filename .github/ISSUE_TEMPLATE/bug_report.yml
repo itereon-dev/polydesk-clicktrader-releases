@@ -1,0 +1,89 @@
+name: Bug report
+description: Something in POLYDESK doesn't work as described
+title: "[Bug] "
+labels: ["bug", "needs-info"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Before you continue: never paste private keys, API tokens
+        or wallet addresses.** Redact them from logs and screenshots. Security problems
+        (key exposure, bypassing limits, tampered updates) go to
+        [private reporting](https://github.com/itereon-dev/polydesk-clicktrader-releases/security/advisories/new) instead of a public issue.
+  - type: input
+    id: version
+    attributes:
+      label: POLYDESK version
+      description: Account menu (top right) → About
+      placeholder: "0.4.6"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple Silicon)
+        - Other (say which in the description)
+    validations:
+      required: true
+  - type: dropdown
+    id: engine
+    attributes:
+      label: Engine connection (⚙ Settings → CONNECTION)
+      options:
+        - BUILT-IN
+        - REMOTE (own executor)
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Trading mode when it happened
+      options:
+        - PAPER
+        - LIVE
+        - Not sure / not trading
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see? Include the exact text of any error toast or banner.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open market …
+        2. Click …
+        3. …
+  - type: textarea
+    id: bell
+    attributes:
+      label: 🔔 Notification log (top bar, next to ⚙)
+      description: Paste the relevant entries — time, source, message. Redact addresses.
+      render: text
+  - type: input
+    id: market
+    attributes:
+      label: Market (optional)
+      description: Polymarket URL of the market involved, if any
+  - type: checkboxes
+    id: redaction
+    attributes:
+      label: Redaction
+      options:
+        - label: I have removed private keys, API tokens and wallet addresses from everything above (text, logs, screenshots).
+          required: true

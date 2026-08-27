@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or how-to
+    url: https://github.com/itereon-dev/polydesk-clicktrader-releases/discussions/categories/q-a
+    about: Ask in Discussions → Q&A. Bugs go in an issue; questions get answered faster here.
+  - name: Security issue
+    url: https://github.com/itereon-dev/polydesk-clicktrader-releases/security/advisories/new
+    about: Key exposure, limit bypass, update tampering — report privately, never in a public issue.
+  - name: Email support
+    url: mailto:admin@itereon.eu
+    about: For anything that involves your account or purchase.

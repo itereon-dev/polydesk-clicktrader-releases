@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest an improvement or a missing capability
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For open-ended discussion, [Discussions → Ideas](https://github.com/itereon-dev/polydesk-clicktrader-releases/discussions/categories/ideas)
+        is the better place; use this form for a concrete, well-defined request.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The trading situation, not the solution — what takes too many clicks, what's missing, what goes wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like POLYDESK to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle it today?
+      description: Workarounds, other tools you know that do this well (e.g. Geeks Toy, Bet Angel).
+  - type: dropdown
+    id: os
+    attributes:
+      label: Your system
+      options:
+        - Windows
+        - macOS
+        - Both
