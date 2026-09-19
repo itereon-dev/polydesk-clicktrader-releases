@@ -2,7 +2,7 @@
   <img src="assets/social-preview.png" width="100%" alt="POLYDESK clicktrader — one-click ladder trading desktop app, compatible with Polymarket">
 </p>
 
-# POLYDESK clicktrader — ladder trading desktop app for Polymarket
+# POLYDESK clicktrader - ladder trading desktop app for Polymarket
 
 **Website: [www.tradepolydesk.com](https://www.tradepolydesk.com)**
 
