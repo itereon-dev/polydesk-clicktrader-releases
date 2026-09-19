@@ -1,21 +1,23 @@
 <p align="center">
-  <img src="assets/social-preview.png" width="100%" alt="POLYDESK — one-click ladder trading for Polymarket">
+  <img src="assets/social-preview.png" width="100%" alt="POLYDESK clicktrader — one-click ladder trading desktop app, compatible with Polymarket">
 </p>
 
-# POLYDESK clickrader for Polymarket
+# POLYDESK clicktrader - ladder trading desktop app for Polymarket
 
 **Website: [www.tradepolydesk.com](https://www.tradepolydesk.com)**
 
 [![Latest release](https://img.shields.io/github/v/release/itereon-dev/polydesk-clicktrader-releases?label=download&sort=semver)](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest)
 
-POLYDESK is a desktop trading cockpit for [Polymarket](https://polymarket.com): a
+polydesk clicktrader (POLYDESK clicktrader) is a desktop trading cockpit for [Polymarket](https://polymarket.com): a
 one-click price ladder in the style of exchange trading tools (Geeks Toy, Bet Angel),
 with quick take, quick cancel, stake presets, hedging and cash-out figures, position and
 P&L tracking — built for traders who want to click on a price, not fill in a form.
 
 It runs on **your** computer. Your keys and funds never leave your control; nobody
-places orders on your behalf. POLYDESK is independent software and is **not
-affiliated with or endorsed by Polymarket**.
+places orders on your behalf. polydesk clicktrader is independent software by itereon GmbH and is **not
+affiliated with or endorsed by Polymarket**. Guides: [ladder trading](https://www.tradepolydesk.com/ladder-trading),
+[the Grid](https://www.tradepolydesk.com/grid-trading), [tutorial](https://www.tradepolydesk.com/tutorial),
+[changelog](https://www.tradepolydesk.com/changelog).
 
 <!-- ![POLYDESK cockpit](assets/screenshot.png) -->
 
