@@ -2,7 +2,7 @@
   <img src="assets/social-preview.png" width="100%" alt="POLYDESK — one-click ladder trading for Polymarket">
 </p>
 
-# POLYDESK — Click Trader for Polymarket
+# POLYDESK clickrader for Polymarket
 
 **Website: [www.tradepolydesk.com](https://www.tradepolydesk.com)**
 
