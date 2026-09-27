@@ -76,18 +76,19 @@ versioned name; the files are identical.
 Not available: Intel Macs, Linux. Pre-releases (`-beta`) are marked as such and never
 served by the links above — use them only if you were asked to test.
 
-### Installing (unsigned builds — read this once)
+### Installing (read this once)
 
-The installers are not yet code-signed, so both operating systems warn on first launch.
-This is expected and not a sign of a bad download — **verify the checksum** (next
-section) and then:
+Windows installers are code-signed by **itereon GmbH**. macOS builds are not yet signed, so
+macOS warns on first launch — expected and not a sign of a bad download. Either way,
+**verify the checksum** (next section) and then:
 
+- **Windows:** double-click the `.exe`. SmartScreen may still show *"Windows protected your
+  PC"* while a new release builds reputation — check that the dialog names **itereon GmbH**
+  as the publisher, then **More info** → **Run anyway**.
 - **macOS:** open the `.dmg`, drag **polydesk** to *Applications*. On first launch
   Gatekeeper reports *"polydesk.app is damaged and can't be opened"* — that is the
   quarantine flag on an unsigned app, not damage. Run once in Terminal:
   `xattr -cr /Applications/polydesk.app` — then open the app normally.
-- **Windows:** SmartScreen shows *"Windows protected your PC"* → **More info** →
-  **Run anyway**.
 
 ### Verify your download
 
