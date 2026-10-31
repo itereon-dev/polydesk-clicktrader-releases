@@ -1,100 +1,107 @@
 <p align="center">
-  <img src="assets/social-preview.png" width="100%" alt="POLYDESK clicktrader — one-click ladder trading desktop app, compatible with Polymarket">
+  <img src="assets/social-preview.png" width="100%" alt="POLYDESK clicktrader: one-click ladder trading desktop app, compatible with Polymarket">
 </p>
 
-# POLYDESK clicktrader - ladder trading desktop app for Polymarket
+# POLYDESK clicktrader: ladder trading desktop app for Polymarket
 
 **Website: [www.tradepolydesk.com](https://www.tradepolydesk.com)**
 
 [![Latest release](https://img.shields.io/github/v/release/itereon-dev/polydesk-clicktrader-releases?label=download&sort=semver)](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest)
 
-polydesk clicktrader is a desktop trading cockpit for [Polymarket](https://polymarket.com):
-a one-click price ladder in the style of exchange trading tools, plus a Grid view over all
-outcomes of a market — quick take, quick cancel, size presets on hotkeys, hedge and cash-out
-figures, position and P&L tracking. Built for traders who want to click on a price, not fill
-in a form.
+POLYDESK clicktrader is a desktop trading cockpit for [Polymarket](https://polymarket.com).
+You get a one-click price ladder like the ones on exchange trading tools, and a Grid view that
+shows all outcomes of a market at once. Take and cancel with one click, switch stake presets
+from the keyboard, see your hedge and cash-out figures, and keep track of positions and P&L.
+It's made for traders who would rather click a price than fill in a form.
 
-It runs on **your** computer. Your signer key and funds never touch our infrastructure;
-nobody places orders on your behalf. polydesk clicktrader is independent software by
-itereon GmbH and is **not affiliated with or endorsed by Polymarket**.
+The app runs on **your** computer. Your key and your funds never touch our servers, and nobody
+places orders for you. POLYDESK is independent software made by itereon GmbH. It is **not
+affiliated with or endorsed by Polymarket**.
 
-> **Open beta.** The app is in public beta and still moves fast — features and limits can
-> change between releases. During the beta every installation has all **Plus** features at no
-> builder fee; the end of the beta is announced at least 30 days in advance.
+> **Open beta.** POLYDESK is in public beta and changes quickly, so features and limits can
+> differ between releases. While the beta runs, every installation gets all **Plus** features
+> with no builder fee. We'll announce the end of the beta at least 30 days ahead, on the website
+> and in the app.
 
-This repository is the official **download and support** channel. The application itself is
-closed-source — there is no source code here, only releases, checksums, and a place to ask
-questions and report problems.
+This repository is where you download POLYDESK and get support. The app is closed source, so
+you won't find code here. You'll find the releases, checksums, and a place for questions and
+bug reports.
 
 ---
 
 ## What's in the cockpit
 
-- **Ladder** — one outcome, full depth. Columns for price, ASK, BID, MINE and HEDGE. Click an
-  ASK cell to take, click a price or BID cell to leave a resting bid, click a blue MINE chip
-  to cancel that order. The ladder auto-centres on the mid price and each panel carries a
-  depth minimap, so a fast market does not run off the screen.
-- **Grid** — every outcome of a market on one row: ask cells left, size in the middle, bid
-  cells right, your position on the right edge, four to twelve levels per side. Clicks stage
-  into the PLACE BETS ticket and are confirmed there — the map next to the ladder's scalpel.
-- **Hedging and cash-out** — the HEDGE column shows the live profit or loss of closing at that
-  level, computed across outcomes. **F** hedges every position at the best bid.
-- **Keyboard-driven** — size presets on **1**–**8**, hedge on **F**, cancel every working
-  order on **Esc**.
-- **Always in view** — active positions, working orders, fills log and session tiles in the
-  bottom panel; engine and price-feed status in the footer.
-- **Paper mode** — the full cockpit against live market data with simulated fills. Free, no
-  time limit, no wallet and no funds required.
-- **ARMED / DISARMED** — the app starts disarmed; DISARM blocks all order placement instantly,
-  **Esc** or **CANCEL ALL** pulls every working order at once.
+- **Ladder:** one outcome with full depth, in the columns HEDGE, ASK, price, BID and MINE. Click
+  an ASK cell to buy right away, click a BID cell to rest a buy order. Your resting orders show
+  as blue MINE chips: click one to cancel it, drag it to move it. A click on the price column
+  recenters the ladder. The ladder follows the mid price on its own, and the price bar on its
+  edge shows the whole book, so a fast market doesn't run off the screen.
+- **Grid:** every outcome of a market on one row. Ask cells on the left, your size in the
+  middle, bid cells on the right, with 4 to 12 levels per side. A click stages the order in the
+  PLACE BETS ticket, and it goes out when you confirm it there.
+- **Hedging and cash-out:** the HEDGE column shows what you would make or lose by closing at
+  each price, across all outcomes of the market. Press **F** to hedge every position at the best
+  bid.
+- **Keyboard:** stake presets on **1** to **8**, **Space** arms and disarms, **F** hedges,
+  **Esc** cancels every working order.
+- **Everything in view:** positions, working orders, the fills log and session figures sit in
+  the bottom panel. Engine and price feed status are in the footer.
+- **Paper mode:** the full cockpit on live market data with simulated fills. It's free, has no
+  time limit and needs no wallet or funds.
+- **Armed / disarmed:** the engine always starts disarmed and nothing is sent until you arm it.
+  **Esc** or **CANCEL ALL** pulls all your working orders at once.
 
-Guides on the website: [tutorial](https://www.tradepolydesk.com/tutorial) ·
-[ladder trading](https://www.tradepolydesk.com/ladder-trading) ·
-[the Grid](https://www.tradepolydesk.com/grid-trading) ·
-[learn](https://www.tradepolydesk.com/learn) ·
-[FAQ](https://www.tradepolydesk.com/faq) ·
-[changelog](https://www.tradepolydesk.com/changelog)
+Guides on the website: [tutorial](https://www.tradepolydesk.com/tutorial),
+[ladder trading](https://www.tradepolydesk.com/ladder-trading),
+[the Grid](https://www.tradepolydesk.com/grid-trading),
+[learn](https://www.tradepolydesk.com/learn),
+[FAQ](https://www.tradepolydesk.com/faq),
+[changelog](https://www.tradepolydesk.com/changelog).
 
 ---
 
 ## Download
 
-These links always point at the **current stable version**:
+These links always point to the **current stable version**:
 
-| System | Download | Also on the release page as |
+| System | Download | Versioned file name on the release page |
 |---|---|---|
-| **Windows 10 / 11** (64-bit) | [polydesk-windows-x64-setup.exe](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest/download/polydesk-windows-x64-setup.exe) — recommended | `polydesk_<version>_x64-setup.exe` |
-| Windows (IT-managed installs) | [polydesk-windows-x64.msi](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest/download/polydesk-windows-x64.msi) | `polydesk_<version>_x64_en-US.msi` |
-| **macOS** (Apple Silicon — M1 or newer) | [polydesk-macos-arm64.dmg](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest/download/polydesk-macos-arm64.dmg) | `polydesk_<version>_aarch64.dmg` |
+| **Windows 10 / 11** (64-bit) | [polydesk-windows-x64-setup.exe](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest/download/polydesk-windows-x64-setup.exe) (recommended) | `polydesk_<version>_x64-setup.exe` |
+| Windows, for IT-managed installs | [polydesk-windows-x64.msi](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest/download/polydesk-windows-x64.msi) | `polydesk_<version>_x64_en-US.msi` |
+| **macOS** on Apple Silicon (M1 or newer) | [polydesk-macos-arm64.dmg](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest/download/polydesk-macos-arm64.dmg) | `polydesk_<version>_aarch64.dmg` |
 | Checksums | [SHA256SUMS.txt](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases/latest/download/SHA256SUMS.txt) | |
 
-All versions, release notes and older downloads:
-**[Releases](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases)**.
-Each release carries every installer twice — under the fixed name above and under a
-versioned name; the files are identical.
+Older versions and the release notes are on the
+**[Releases](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases)** page. Each
+release has every installer twice, under the fixed name above and under a versioned name. Both
+files are identical.
 
-Not available: Intel Macs, Linux. Pre-releases (`-beta`) are marked as such and never
-served by the links above — use them only if you were asked to test.
+There are no builds for Intel Macs or Linux. Pre-releases (`-beta`) are marked as such and the
+links above never point to them. Only install one if we asked you to help test it.
 
-### Installing (read this once)
+### Installing
 
-Windows installers are code-signed by **itereon GmbH**. macOS builds are not yet signed, so
-macOS warns on first launch — expected and not a sign of a bad download. Either way,
-**verify the checksum** (next section) and then:
+Windows installers are code-signed by **itereon GmbH**. macOS builds aren't signed yet, so macOS
+warns you on the first launch. That's expected and doesn't mean the download is broken. On both
+systems, **verify the checksum first** (see below), then:
 
-- **Windows:** double-click the `.exe`. SmartScreen may still show *"Windows protected your
-  PC"* while a new release builds reputation — check that the dialog names **itereon GmbH**
-  as the publisher, then **More info** → **Run anyway**.
-- **macOS:** open the `.dmg`, drag **polydesk** to *Applications*. On first launch
-  Gatekeeper reports *"polydesk.app is damaged and can't be opened"* — that is the
-  quarantine flag on an unsigned app, not damage. Run once in Terminal:
-  `xattr -cr /Applications/polydesk.app` — then open the app normally.
+- **Windows:** double-click the `.exe`. SmartScreen can still show *"Windows protected your PC"*
+  while a new release builds up reputation. Check that the dialog names **itereon GmbH** as the
+  publisher, then click **More info** and **Run anyway**.
+- **macOS:** open the `.dmg` and drag **polydesk** into *Applications*. On the first launch,
+  Gatekeeper says *"polydesk.app is damaged and can't be opened"*. The app isn't damaged; that's
+  how macOS reports the quarantine flag on an unsigned app. Run this once in Terminal, then open
+  the app as usual:
+
+  ```bash
+  xattr -cr /Applications/polydesk.app
+  ```
 
 ### Verify your download
 
-Every release ships a `SHA256SUMS.txt` generated by our build pipeline from the exact
-files published (it lists both the fixed and the versioned file names — same hash).
-Compare its line for your file with the hash of what you downloaded:
+Every release includes a `SHA256SUMS.txt` that our build pipeline creates from the published
+files. It lists both the fixed and the versioned file names, with the same hash. Compare the line
+for your file with the hash of what you downloaded:
 
 ```powershell
 # Windows (PowerShell)
@@ -106,98 +113,101 @@ Get-FileHash .\polydesk-windows-x64-setup.exe -Algorithm SHA256
 shasum -a 256 ~/Downloads/polydesk-macos-arm64.dmg
 ```
 
-If the hash differs, delete the file and download again from this page only.
+If the hash doesn't match, delete the file and download it again, from this page only.
 
 ---
 
 ## First start
 
-1. **Paper mode starts by itself.** The trading engine ships inside the app and comes up in
-   paper mode with zero configuration — no wallet, no funds, no purchase. A short setup guide
-   walks you through the cockpit; you can re-run it any time from the account menu.
-2. **Learn the ladder there first.** Paper fills are simulated against the real market, so
-   nothing is at risk while you get used to one-click entry and cancelling.
-3. **Going live** takes two steps: **⚙ Settings → ACCOUNT** to store the key of your
-   **dedicated trading wallet**, then the **PAPER / LIVE** pill in the top bar. Fund that
-   wallet only with what you are willing to risk; never import your main wallet.
-4. The in-app **? GUIDE** (footer, English and German) explains every element of the cockpit:
-   markets, ladder, Grid, stakes, tickets, hedging, positions, odds formats, shortcuts.
+1. **A short setup guide opens.** It asks you to accept the disclaimer and the Terms of Use, then
+   walks you through the cockpit. You can open it again any time from the account menu (top
+   right) → *Setup guide…*.
+2. **You start in paper mode.** The trading engine is built into the app and runs in paper mode
+   without any setup: no wallet, no funds, no purchase. Paper fills are simulated against the
+   real order book, so you can practice one-click entry and cancelling without risking anything.
+3. **Going live** takes two steps. Store your wallet key in **⚙ Settings → ACCOUNT** (or in the
+   setup guide), then switch the **PAPER / LIVE** pill in the top bar. Use a wallet you keep
+   only for trading and only put in what you can afford to lose. Never import your main wallet.
+4. **The manual** opens from **? GUIDE** in the footer. It covers every part of the cockpit:
+   markets, ladder, Grid, stakes, the ticket, hedging, positions, display formats and shortcuts.
 
 ## Plans
 
 | | **Free** | **Plus** | **Pro** |
 |---|---|---|---|
-| Price | €0, no licence | flat, monthly or yearly — *to be announced* | on request |
+| Price | €0, no licence | flat, monthly or yearly, *price to be announced* | on request |
 | Trading | paper **and** live | paper and live | paper and live |
 | Risk caps | $25 stake · $100 exposure per market · 5 open orders per market | set your own | set your own |
 | Ladders | one at a time | Grid with unlimited ladders | unlimited |
-| Sessions | current trading day | all sessions | all sessions |
+| Session stats | current trading day | all sessions | all sessions |
 | Builder fee | none | none | none |
 | Support | GitHub | priority by email | priority by email |
 | Setup | local | local, licence bound to one of your wallets | set up once on your own server |
 
-Live trading is included in Free — no purchase needed to place a real order. **During the open
-beta every installation runs with all Plus features at no builder fee.** Plus and Pro are
-offered in unrestricted jurisdictions only. Current details:
-[pricing](https://www.tradepolydesk.com/#pricing).
+Live trading is part of Free, so you don't have to buy anything to place a real order. The Free
+caps are provisional beta values and only apply after the beta. **Until then, every installation
+runs with all Plus features and no builder fee.** Plus will first be available in selected
+billing countries. Pro is only offered in unrestricted jurisdictions, with the server in your own
+country. Current details are on the [pricing page](https://www.tradepolydesk.com/#pricing).
 
-## How your keys and money are protected
+## How your key and funds are protected
 
-- **Non-custodial.** Your signer key is generated and stored on your machine — in your
-  operating system's keychain (macOS Keychain / Windows Credential Manager), never in a plain
-  file, never sent anywhere. Orders are signed on your device by the engine inside the app,
-  and no polydesk server sits in the order path. We cannot access, move or freeze your funds.
-- **Risk caps.** Maximum stake per order, maximum open orders and maximum exposure per market
-  are enforced by the engine itself, not by the interface.
-- **Kill switch.** The app starts **disarmed**; DISARM blocks placement instantly, and
-  *CANCEL ALL* / **Esc** cancel every working order.
-- **Releases contain no credentials.** Everything personal is entered by you at first run and
+- **Non-custodial.** Your wallet key is stored on your machine, encrypted in your operating
+  system's keychain (macOS Keychain or Windows Credential Manager). It's never kept in a plain
+  file and never sent anywhere. The engine inside the app signs orders on your device, and no
+  POLYDESK server sits between you and Polymarket. We can't access, move or freeze your funds.
+- **Risk caps.** Maximum stake per order, maximum open orders and maximum exposure per market are
+  enforced by the engine itself, not just by the interface.
+- **Kill switch.** The engine starts **disarmed**. Disarming blocks new orders at once, and
+  **CANCEL ALL** or **Esc** cancels every working order.
+- **No credentials in the releases.** Anything personal is entered by you after installing and
   stays on your device.
 
 ## Requirements
 
-- Windows 10/11 64-bit, or macOS on Apple Silicon.
-- For live trading: a Polymarket account you set up yourself, with funds in its deposit
-  wallet, and a dedicated trading wallet whose key you store in POLYDESK. Paper mode needs
-  neither.
-- An internet connection **from a jurisdiction where Polymarket permits trading**. Polymarket
-  decides this from your connection, not the app; in restricted regions functionality can be
-  limited to closing positions. Do **not** use a VPN or proxy to work around this — it
-  violates Polymarket's terms and can cost you your account. Checking that your use is legal
-  where you are is your responsibility.
+- Windows 10/11 (64-bit), or macOS on Apple Silicon.
+- For live trading: a Polymarket account that you set up and funded yourself, and its private
+  key, which you store in POLYDESK. Paper mode needs neither.
+- An internet connection **from a country where Polymarket allows trading**. Polymarket decides
+  this based on your connection, not the app. In restricted regions you may only be able to
+  close positions. Don't use a VPN or proxy to get around this: it breaks Polymarket's terms and
+  can cost you your account. It's your responsibility to check that your use is legal where you
+  are.
 
 ## Updates
 
-POLYDESK updates itself: shortly after launch it checks for a new version and shows an
-**⬆ UPDATE** button in the footer when one is ready. Every update is cryptographically
-verified before it installs, so it can only come from us. You can check manually via account
-menu → *About → CHECK FOR UPDATES*. Beta builds ship often — best practice is to update
-between sessions, not while orders are working.
+POLYDESK updates itself. Shortly after launch it checks this repository for a new version and
+shows an **⬆ UPDATE** button in the footer when one is available. Every update is
+cryptographically verified before it installs, so it can only come from us. To check by hand,
+open the account menu → *About* → *CHECK FOR UPDATES*. Beta builds come out often; we recommend
+updating between sessions, not while orders are working.
 
 ## Privacy
 
-The app runs locally and talks directly to Polymarket's public services for markets, prices
-and your positions, plus our update server to check for new versions. **No usage telemetry and
-no trading data** — no orders, positions, market data or wallet information — is collected.
-Technical error and crash diagnostics can be sent to help us fix problems; they contain no key
-material, balances or trading data. Details:
-[privacy policy](https://www.tradepolydesk.com/privacy) and the in-app guide.
+The app runs locally and talks directly to Polymarket's public services for markets, prices and
+your positions, and to GitHub to check for updates. We collect **no usage telemetry and no
+trading data**: no orders, positions, market data or wallet information. When something crashes,
+the app sends an anonymous error report so we can fix it, and it counts its own starts and
+crashes per version without any identifier. Neither contains keys, balances or trading data. From
+v0.5.6 you can switch the error reports off in ⚙ Settings. More in the
+[privacy policy](https://www.tradepolydesk.com/privacy) and in the in-app manual.
 
 ## Help, questions, bug reports
 
-- **Bugs:** [open an issue](https://github.com/itereon-dev/polydesk-clicktrader-releases/issues/new/choose) — the template asks for the
-  version (*About*), your system, mode, and the text from the 🔔 notification bell. Before
-  reporting, check that the footer shows **ENGINE READY** and **PRICES LIVE** and that you are
-  on the latest release. **Never post private keys, API tokens or wallet addresses.** Redact
-  them from logs and screenshots before uploading.
-- **Questions & how-to:** [Discussions → Q&A](https://github.com/itereon-dev/polydesk-clicktrader-releases/discussions/categories/q-a)
+- **Bugs:** [open an issue](https://github.com/itereon-dev/polydesk-clicktrader-releases/issues/new/choose).
+  The form asks for your version (account menu → *About*), your system, the trading mode and the
+  entries from the 🔔 notification log. Before you report, check that the footer shows
+  **ENGINE READY** and **PRICES LIVE** and that you're on the latest release. **Never post private
+  keys, API tokens or wallet addresses**, and remove them from logs and screenshots before you
+  upload anything.
+- **Questions and how-to:** [Discussions → Q&A](https://github.com/itereon-dev/polydesk-clicktrader-releases/discussions/categories/q-a)
 - **Ideas:** [Discussions → Ideas](https://github.com/itereon-dev/polydesk-clicktrader-releases/discussions/categories/ideas)
-- **Release announcements:** [Discussions → Announcements](https://github.com/itereon-dev/polydesk-clicktrader-releases/discussions/categories/announcements), each
-  [release](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases), and
-  [@tradepolydesk](https://x.com/tradepolydesk) on X.
-- **Licensing, billing, privacy, Pro setup:** office@itereon.eu — see
-  [support](https://www.tradepolydesk.com/support).
-- **Security issues:** please report privately — see [SECURITY.md](SECURITY.md).
+- **Release news:** [Discussions → Announcements](https://github.com/itereon-dev/polydesk-clicktrader-releases/discussions/categories/announcements),
+  the [releases](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases) themselves,
+  and [@tradepolydesk](https://x.com/tradepolydesk) on X.
+- **Licensing, billing, privacy, Pro setup:** office@itereon.eu, see also the
+  [support page](https://www.tradepolydesk.com/support).
+- **Security issues:** please report them privately, see [SECURITY.md](SECURITY.md).
 
 ## Disclaimer
 
@@ -214,8 +224,8 @@ material, balances or trading data. Details:
 
 ## Legal
 
-© 2026 itereon GmbH, Vienna. All rights reserved. POLYDESK is proprietary software; use is
-governed by the [terms of service](https://www.tradepolydesk.com/terms) and the licence
-agreement shown at installation. Polymarket is a trademark of its respective owner; its use
-here is descriptive only. Licence notices for the open-source components POLYDESK is built
-with ship inside the application (*About → Third-party licenses*).
+© 2026 itereon GmbH, Vienna. All rights reserved. POLYDESK is proprietary software. Its use is
+governed by the [Terms of Use](https://www.tradepolydesk.com/terms), which you accept in the
+setup guide on first start. Polymarket is a trademark of its respective owner and is named here
+for descriptive purposes only. The licence notices for the open-source components POLYDESK is
+built with ship inside the app (*About → Third-party licenses*).
