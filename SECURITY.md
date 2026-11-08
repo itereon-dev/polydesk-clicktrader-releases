@@ -8,7 +8,7 @@ want to know **privately, first**.
 
 - Preferred: **[Report a vulnerability](https://github.com/itereon-dev/polydesk-clicktrader-releases/security/advisories/new)** (GitHub
   private vulnerability reporting — only maintainers see it).
-- Or email **admin@itereon.eu** with "SECURITY" in the subject.
+- Or email **support@tradepolydesk.com** with "SECURITY" in the subject.
 
 Please include the POLYDESK version (*About*), your operating system, and steps to
 reproduce. **Do not include private keys, API tokens, or wallet addresses** — describe

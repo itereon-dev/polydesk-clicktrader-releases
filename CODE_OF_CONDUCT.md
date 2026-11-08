@@ -10,4 +10,4 @@ This is a support space for people who trade with POLYDESK. Keep it useful:
 - No financial advice, market tips, referral or promotional content, or harassment.
 
 Maintainers may edit, lock, or remove content and block accounts that ignore this.
-Concerns: admin@itereon.eu.
+Concerns: support@tradepolydesk.com.

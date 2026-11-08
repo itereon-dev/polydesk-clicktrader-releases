@@ -205,7 +205,7 @@ v0.5.6 you can switch the error reports off in ⚙ Settings. More in the
 - **Release news:** [Discussions → Announcements](https://github.com/itereon-dev/polydesk-clicktrader-releases/discussions/categories/announcements),
   the [releases](https://github.com/itereon-dev/polydesk-clicktrader-releases/releases) themselves,
   and [@tradepolydesk](https://x.com/tradepolydesk) on X.
-- **Licensing, billing, privacy, Pro setup:** office@itereon.eu, see also the
+- **Licensing, billing, privacy, Pro setup:** support@tradepolydesk.com, see also the
   [support page](https://www.tradepolydesk.com/support).
 - **Security issues:** please report them privately, see [SECURITY.md](SECURITY.md).
 
